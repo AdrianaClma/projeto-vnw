@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: rgb(68, 4, 75);
+            color: rgba(247, 0, 185, 0.555)24, 0, 0);
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav ul {
+            list-style: none;
+        }
+
+        nav li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, 0.404);
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        
+        .banner-image {
+            max-width: 100%;
+            height: auto;
+        }
+
+    
+        #home h2 {
+            text-align: center;
+        }
+
+        
+        #products ul {
+            list-style-type: disc;
+        }
+
+        
+        .product-image {
+            max-width: 100%;
+            margin: 10px 0;
+        }
+
+        
+        .contact-image {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+
+        
+        #contact address {
+            margin-top: 20px;
+            font-style: normal;
+        }
+
+        
+        @media screen and (max-width: 768px) {
+            nav ul {
+                text-align: center;
+            }
+            nav li {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+    </style>
+    <title>Pet Shop</title>
+</head>
+<body>
+    <header>
+        <h1>Pet Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Página Inicial</a></li>
+                <li><a href="#products">Produtos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <img src="/home/adriana/Secretária/Projeto final vnw/imagens projeto/transferir (1).jpeg" alt="gato como banner" class="banner-image">
+        <h2>Bem-vindo à nossa loja de pet shop!</h2>
+        <p>Oferecemos uma ampla variedade de produtos para o seu animal de estimação.</p>
+    </section>
+
+    <section id="products">
+        <h2>Nossos Produtos</h2>
+        <ul>
+            <li>Ração para cães e gatos</li>
+            <li>Brinquedos para animais de estimação</li>
+            <li>Coleiras e guias</li>
+        </ul>
+        <img src="/home/adriana/Secretária/Projeto final vnw/imagens projeto/raçao.jpeg "alt="Ração" class="product-image">
+        <img src="/home/adriana/Secretária/Projeto final vnw/imagens projeto/brin.jpeg" alt="Brinquedos para animais de estimação" class="product-image">
+        <img src="/home/adriana/Secretária/Projeto final vnw/imagens projeto/colei.jpeg" alt="Coleiras e guias" class="product-image">
+    </section>
+
+    <section id="contact">
+        <h2>Entre em Contato Conosco</h2>
+        <p>Se você tiver alguma dúvida ou precisar de assistência, por favor, nos contate:</p>
+        <address>
+            Email: <a href="mailto:contato@petshop.com">contato@petshop.com</a><br>
+            Telefone: (123) 456-7890
+        </address>
+        <img src="/home/adriana/Secretária/Projeto final vnw/imagens projeto/transferir (2).jpeg" alt="Entre em contato" class="contact-image">
+    </section>
+</body>
+</html>
